@@ -19,7 +19,7 @@ public class Reader extends JFrame{
 		super(s);
 		
 		setLayout(new FlowLayout());
-		j = new JLabel("Разработано SuxEugene");
+		j = new JLabel("Разработано SuxEugene.");
 		c = new JButton("С");
 		b= new JButton("0");
 		b1= new JButton("1");

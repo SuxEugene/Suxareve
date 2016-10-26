@@ -1,15 +1,15 @@
 
 public class calc {
-	static String a;
+	static String z;
 	
 	public static String count(String d1, int m){
 		if(!d1.equals("0")){
-			a = d1;
-			a += Integer.toString(m);
+			z = d1;
+			z += Integer.toString(m);
 		}else{
-			a = d1;
-			a = Integer.toString(m);
+			z = d1;
+			z = Integer.toString(m);
 		}
-		return a;
+		return z;
 	}
 }
